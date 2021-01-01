@@ -1,18 +1,19 @@
-package test;
+package machine;
 import java.util.Scanner;
 
 
-public class test {
+public class machine {
 	
+
 	public static boolean isPrime (int number) 
+
 	{
 		/* If the number has no factors,we return a true */
-		for (int i=2;i<number;i++)
-		 if (number%i==0)
+	for (int i=2;i<number;i++)
+		if (number%i==0)
 		 {
 			return false;
-
-		}
+		 }
 		
 		return true;
 
