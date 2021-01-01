@@ -53,7 +53,6 @@ public class machine {
 	System.out.print("Enter your min: ");
 	int min = keyboard.nextInt();
 	System.out.print("Enter your max: ");
-
 	int max= keyboard.nextInt();
 	System.out.println("---------");
 	
