@@ -1,13 +1,12 @@
 package machine;
 mport java.util.Scanner;
 
-
 public class machine {
 	
-	
+	/* Boolean method to check wheter or number is prime or not */
+
 	public static boolean isPrime (int number) 
 	{
-		/* If the number has no factors,we return a true */
 		for (int i=2;i<number;i++)
 		 if (number%i==0)
 		 {
@@ -19,7 +18,7 @@ public class machine {
 
 	}
 
-	
+	/* Void method to list the number of primes in a range of integers */
 	public static void findPrimesinRange(int min, int max)
 	
 	{
