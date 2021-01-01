@@ -1,19 +1,19 @@
 package machine;
-import java.util.Scanner;
+mport java.util.Scanner;
 
 
 public class machine {
 	
-
+	
 	public static boolean isPrime (int number) 
-
 	{
 		/* If the number has no factors,we return a true */
-	for (int i=2;i<number;i++)
-		if (number%i==0)
+		for (int i=2;i<number;i++)
+		 if (number%i==0)
 		 {
 			return false;
-		 }
+
+		}
 		
 		return true;
 
@@ -48,7 +48,19 @@ public class machine {
 	/* A program to check whether an integer is a prime or not */
 	public static void main(String[] args) {
 	
-	findPrimesinRange(1,1000);
+	while (true) { 
+	System.out.println("--Program starts here--");
+	Scanner keyboard = new Scanner(System.in);
+	System.out.print("Enter your min: ");
+	int min = keyboard.nextInt();
+	System.out.print("Enter your max: ");
+
+	int max= keyboard.nextInt();
+	System.out.println("---------");
+	
+	
+	findPrimesinRange(min,max);
+	}
 
 
 }
